@@ -1,4 +1,5 @@
 **AI powered Email Assistant**
+
 I have used Spring Boot in backend and also created a web page to manually use the project.
 - Technologies Used: Spring Boot, Spring AI, React, Google's Gemini API, RESTful APIs, Browser Extension Development.
 - Designed and implemented the backend architecture using Spring Boot to handle email processing and AI integration.
