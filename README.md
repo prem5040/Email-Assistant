@@ -15,8 +15,9 @@ Key Features
 
 Code Walkthrough
 Content Script:
-Button Creation: The createAIButton function creates a custom button with specific styles and attributes.
-Email Content Extraction: The getEmailContent function uses CSS selectors to extract the email content from the Gmail interface.
-Toolbar Detection: The findComposeToolbar function locates the compose toolbar using various CSS selectors.
-Button Injection: The injectButton function adds the custom button to the compose toolbar and sets up the click event listener.
-Mutation Observer: The observer watches for changes in the DOM to detect when the compose window is opened and injects the button accordingly.
+
+- Button Creation: The createAIButton function creates a custom button with specific styles and attributes.
+- Email Content Extraction: The getEmailContent function uses CSS selectors to extract the email content from the Gmail interface.
+- Toolbar Detection: The findComposeToolbar function locates the compose toolbar using various CSS selectors.
+- Button Injection: The injectButton function adds the custom button to the compose toolbar and sets up the click event listener.
+- Mutation Observer: The observer watches for changes in the DOM to detect when the compose window is opened and injects the button accordingly.
